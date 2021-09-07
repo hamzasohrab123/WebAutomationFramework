@@ -5,7 +5,7 @@
 <test name = "Ecommerce Home">
     <classes>
         <class name="pageobjectstests.HomePageTest"/>
-<!--        <class name="pageobjectstests.ContactUsTest"/>-->
+        <class name="pageobjectstests.SearchEmployeeTest"/>
     </classes>
 </test>
 
