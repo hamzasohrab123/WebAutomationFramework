@@ -12,7 +12,7 @@ public class HomePageTest extends BrowserDriverSetUp {
     HomePage homePage = null;
 
     @BeforeMethod
-    public void initializeElements() {
+    public void initializeElements(){
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
@@ -27,6 +27,7 @@ public class HomePageTest extends BrowserDriverSetUp {
         String actualVal = homePage.findBanner();
         String expectedValue = "Izaan Human Resource Management System";
         Assert.assertEquals(actualVal, expectedValue);
+
     }
 
 }
