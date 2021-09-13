@@ -2,7 +2,7 @@
         <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Automation Test" parallel="false">
-<test name = "Ecommerce Home">
+<test name = "WebAutomation Testing">
     <classes>
         <class name="pageobjectstests.HomePageTest"/>
 <!--        <class name="pageobjectstests.SearchEmployeeTest"/>-->
