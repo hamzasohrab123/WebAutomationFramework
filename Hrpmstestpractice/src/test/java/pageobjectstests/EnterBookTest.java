@@ -20,7 +20,7 @@ public class EnterBookTest extends BrowserDriverSetUp {
     public void bookTest(){
         enterBook.enterBook();
         String actual = enterBook.bookName();
-        Assert.assertEquals(actual, "Sherlock Holmes");
+        Assert.assertEquals(actual, "Oliver Twist");
 
     }
 }

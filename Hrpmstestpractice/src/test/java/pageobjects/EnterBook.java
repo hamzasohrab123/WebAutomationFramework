@@ -37,8 +37,8 @@ public class EnterBook {
         bookList.click();
         categoryName.click();
         drama.click();
-        bookId.sendKeys("101");
-        bookName.sendKeys("Sherlock Holmes");
+        bookId.sendKeys("102");
+        bookName.sendKeys("Oliver Twist");
         save.click();
 
     }
