@@ -46,7 +46,7 @@ public class BrowserDriverSetUp {
         options.addArguments("incognito");
 
         if (os.equals("mac")){
-            System.setProperty("webdriver.chrome.driver", "/Users/hamza/WebAutomationFramework/Utilities/drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "../Utilities/drivers/chromedriver");
             driver = new ChromeDriver(options);
         }
             return driver;
