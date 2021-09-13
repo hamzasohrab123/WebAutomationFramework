@@ -45,10 +45,8 @@ public class BrowserDriverSetUp {
         options.addArguments("start-maximized");
         options.addArguments("incognito");
 
-        String path = System.getProperty("user.dir") + "/Utilities/drivers/chromedriver";
-
         if (os.equals("mac")){
-            System.setProperty("webdriver.chrome.driver", path);
+            System.setProperty("webdriver.chrome.driver", "/Users/hamza/WebAutomationFramework/Utilities/drivers/chromedriver");
             driver = new ChromeDriver(options);
         }
             return driver;
