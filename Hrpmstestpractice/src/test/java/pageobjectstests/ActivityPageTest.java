@@ -22,7 +22,7 @@ public class ActivityPageTest extends BrowserDriverSetUp {
     public Object[][] dataProvider() throws Exception {
         ExcelReader excelReader = new ExcelReader();
         //Where is the excel file
-        excelReader.setExcelFile("/Users/hamza/WebAutomationFramework/Hrpmstestpractice/excelreader/data.xlsx");
+        excelReader.setExcelFile(System.getProperty("user.dir") + "/excelreader/data.xlsx");
         Object[][] data = excelReader.getExcelSheetData("Sheet1");
         return data;
     }

@@ -30,6 +30,7 @@ public class BrowserDriverSetUp {
             if (browserName.equals("chrome")){
                 getChromeDriver();
             }
+
         }
         else if (platform.equals("cloud")){
             if (cloudPlatformName.equals("browserstack")){
@@ -46,7 +47,7 @@ public class BrowserDriverSetUp {
         options.addArguments("incognito");
 
         if (os.equals("mac")){
-            System.setProperty("webdriver.chrome.driver", "/Users/hamza/WebAutomationFramework/Utilities/drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "../Utilities/drivers/chromedriver");
             driver = new ChromeDriver(options);
         }
             return driver;
