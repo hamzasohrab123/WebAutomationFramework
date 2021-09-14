@@ -31,7 +31,7 @@
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
                 <version>6.14.3</version>
-                <!--                <scope>test</scope>-->
+                <scope>test</scope>
             </dependency>
             <!--Extent Report-->
             <dependency>
@@ -41,8 +41,8 @@
             </dependency>
             <dependency>
                 <groupId>com.relevantcodes</groupId>
-                <version>2.41.1</version>
                 <artifactId>extentreports</artifactId>
+                <version>2.41.1</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.maven.plugins</groupId>
