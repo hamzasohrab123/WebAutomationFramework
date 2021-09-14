@@ -5,9 +5,9 @@
 <test name = "WebAutomation Testing">
     <classes>
         <class name="pageobjectstests.HomePageTest"/>
-<!--        <class name="pageobjectstests.SearchEmployeeTest"/>-->
-<!--        <class name="pageobjectstests.ActivityPageTest"/>-->
-<!--        <class name="pageobjectstests.EnterBookTest"/>-->
+        <class name="pageobjectstests.SearchEmployeeTest"/>
+        <class name="pageobjectstests.ActivityPageTest"/>
+        <class name="pageobjectstests.EnterBookTest"/>
     </classes>
 </test>
 
