@@ -7,7 +7,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pageobjects.HomePage;
 
-public class HomePageTest extends BrowserDriverSetUp {
+ public class HomePageTest extends BrowserDriverSetUp {
+
 
     HomePage homePage = null;
 
